@@ -12,3 +12,27 @@ Exemplos:
 
 - Valor do Saque: R$ 30,00 – Resultado Esperado: Entregar 1 nota de R$20,00 e 1 nota de R$ 10,00.
 - Valor do Saque: R$ 80,00 – Resultado Esperado: Entregar 1 nota de R$50,00 1 nota de R$ 20,00 e 1 nota de R$ 10,00.
+
+
+##############################################################################
+
+RETROSPECTIVA
+
+:)
+- Interação
+- dinâmica
+- A coca
+- Aprendemos um pouco
+- O Sanches (javeiro) programou em C# (temos fotos para provar)
+- Pessoal conheceu um pouco do TDD
+- Vimos diferentes pontos de vista
+- Pessoal discutiu bastante sobre os tropeços durante a execução
+- Já queriam marcar um dojo com cerveja no final
+
+:(
+- SCROLL DO MOUSE TERRÍVEL (sensível ui)
+- Pouco tempo para executar por pessoa (4m)
+- Falta de sincronia
+- Pessoal conversando enquanto os programadores executavam
+- Falta de comunicação dos pares
+- Falta de conhecimento em TDD
