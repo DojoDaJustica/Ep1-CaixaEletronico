@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d96dca72-d8c2-4b2b-8733-6c99f56d8bbf" name="Henrique@NOTE-HENRIQUE 2012-05-18 10:54:50" runUser="note-henrique\Henrique" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b33bf4a-d810-451a-b84f-6bf2c79801f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Henrique_NOTE-HENRIQUE 2012-05-18 10_54_50">
+      <DeploymentItem filename="c:\users\henrique\documents\visual studio 2010\Projects\DojoTJ-Episodio1\DojoTJ-Episodio1\bin\Debug\DojoTJ-Episodio1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-18T10:54:50.3867187-04:00" queuing="2012-05-18T10:54:50.4355468-04:00" start="2012-05-18T10:54:50.4619140-04:00" finish="2012-05-18T10:54:50.8916015-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaqueDe100Test" storage="c:\users\henrique\documents\visual studio 2010\projects\dojotj-episodio1\dojotj-episodio1tests\bin\debug\dojotj-episodio1tests.dll" id="f8978f6b-8776-65ba-8ded-fd14cb0bc2ff">
+      <Execution id="bb2f8129-01fe-4dea-96d6-2a24bcd6a483" />
+      <TestMethod codeBase="c:/users/henrique/documents/visual studio 2010/Projects/DojoTJ-Episodio1/DojoTJ-Episodio1Tests/bin/Debug/DojoTJ-Episodio1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTJ_Episodio1Tests.CaixaTest, DojoTJ-Episodio1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaqueDe100Test" />
+    </UnitTest>
+    <UnitTest name="TesteNotaValida" storage="c:\users\henrique\documents\visual studio 2010\projects\dojotj-episodio1\dojotj-episodio1tests\bin\debug\dojotj-episodio1tests.dll" id="6612443d-255b-329d-f3c1-2b988846ae92">
+      <Execution id="8ff319a2-e73f-443c-9c80-57887d9127f7" />
+      <TestMethod codeBase="c:/users/henrique/documents/visual studio 2010/Projects/DojoTJ-Episodio1/DojoTJ-Episodio1Tests/bin/Debug/DojoTJ-Episodio1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTJ_Episodio1Tests.CaixaTest, DojoTJ-Episodio1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteNotaValida" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6612443d-255b-329d-f3c1-2b988846ae92" executionId="8ff319a2-e73f-443c-9c80-57887d9127f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8978f6b-8776-65ba-8ded-fd14cb0bc2ff" executionId="bb2f8129-01fe-4dea-96d6-2a24bcd6a483" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8ff319a2-e73f-443c-9c80-57887d9127f7" testId="6612443d-255b-329d-f3c1-2b988846ae92" testName="TesteNotaValida" computerName="NOTE-HENRIQUE" duration="00:00:00.1046692" startTime="2012-05-18T10:54:50.4824218-04:00" endTime="2012-05-18T10:54:50.8525390-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ff319a2-e73f-443c-9c80-57887d9127f7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at DojoTJ_Episodio1Tests.CaixaTest.TesteNotaValida() in c:\users\henrique\documents\visual studio 2010\Projects\DojoTJ-Episodio1\DojoTJ-Episodio1Tests\CaixaTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb2f8129-01fe-4dea-96d6-2a24bcd6a483" testId="f8978f6b-8776-65ba-8ded-fd14cb0bc2ff" testName="SaqueDe100Test" computerName="NOTE-HENRIQUE" duration="00:00:00.0002710" startTime="2012-05-18T10:54:50.8623046-04:00" endTime="2012-05-18T10:54:50.8662109-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb2f8129-01fe-4dea-96d6-2a24bcd6a483">
+    </UnitTestResult>
+  </Results>
+</TestRun>

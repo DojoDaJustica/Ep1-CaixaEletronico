@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4de93b51-f8c8-4a89-9f00-83f8c7c73923" name="Henrique@NOTE-HENRIQUE 2012-05-18 10:19:56" runUser="note-henrique\Henrique" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b33bf4a-d810-451a-b84f-6bf2c79801f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Henrique_NOTE-HENRIQUE 2012-05-18 10_19_56">
+      <DeploymentItem filename="c:\users\henrique\documents\visual studio 2010\Projects\DojoTJ-Episodio1\DojoTJ-Episodio1\bin\Debug\DojoTJ-Episodio1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-18T10:19:56.3291015-04:00" queuing="2012-05-18T10:19:56.3955078-04:00" start="2012-05-18T10:19:56.4042968-04:00" finish="2012-05-18T10:19:56.7490234-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaqueDe100Test" storage="c:\users\henrique\documents\visual studio 2010\projects\dojotj-episodio1\dojotj-episodio1tests\bin\debug\dojotj-episodio1tests.dll" id="f8978f6b-8776-65ba-8ded-fd14cb0bc2ff">
+      <Execution id="955d073f-3861-4a43-a45d-688573b88b75" />
+      <TestMethod codeBase="c:/users/henrique/documents/visual studio 2010/Projects/DojoTJ-Episodio1/DojoTJ-Episodio1Tests/bin/Debug/DojoTJ-Episodio1Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTJ_Episodio1Tests.CaixaTest, DojoTJ-Episodio1Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaqueDe100Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f8978f6b-8776-65ba-8ded-fd14cb0bc2ff" executionId="955d073f-3861-4a43-a45d-688573b88b75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="955d073f-3861-4a43-a45d-688573b88b75" testId="f8978f6b-8776-65ba-8ded-fd14cb0bc2ff" testName="SaqueDe100Test" computerName="NOTE-HENRIQUE" duration="00:00:00.0204303" startTime="2012-05-18T10:19:56.4199218-04:00" endTime="2012-05-18T10:19:56.6601562-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="955d073f-3861-4a43-a45d-688573b88b75">
+    </UnitTestResult>
+  </Results>
+</TestRun>
